@@ -23,7 +23,7 @@ function App() {
         <p>de forma rápida e segura</p>
         <button type='button' onClick={() => setPage('dashboard')}>Iniciar</button>
         </div>
-        <div><img src="./src/assets/Illustration.svg" alt="" /></div>
+        <div><img src="src\assets\Illustration.svg" alt="" /></div>
       </div>
     :<div className='dashboard'>
       <Header onClick={() => setPage('homePage')}/>
