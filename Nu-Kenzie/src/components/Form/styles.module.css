@@ -1,0 +1,97 @@
+form{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid var(--grey-2);
+    border-radius: 4px;
+
+    height: 351px;
+    width: 363px;
+
+    padding-top: 38px;
+    padding-left: 24.5px;
+    padding-right: 24.5px;
+}
+
+form label{
+    font-size: var(--font-size-body);
+    color: black;
+}
+
+.descriptionInput{
+    width: 100%;
+    height: 52px;
+
+    font-size: var(--font-size-headline);
+
+    background-color: var(--grey-1);
+
+    border: none;
+    border-radius: 8px;
+
+    margin-top: 12px;
+    padding-left: 16px;
+}
+
+.bottomSelects{
+    display: flex;
+    margin-top: 30px;
+}
+
+.amountDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.amountInput{
+    width: 128px;
+    height: 48px;
+
+    font-size: var(--font-size-headline);
+
+    background-color: var(--grey-1);
+
+    border: none;
+    border-radius: 8px;
+
+    margin-top: 12px;
+    padding-left: 16px;
+}
+
+.typeDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 36px;
+}
+
+.typeSelect{
+    width: 128px;
+    height: 48px;
+
+    font-size: var(--font-size-headline);
+
+    background-color: var(--grey-1);
+
+    border: none;
+    border-radius: 8px;
+
+    margin-top: 12px;
+    padding-left: 16px;
+}
+
+.buttonSubmit{
+    margin-top: 19px;
+
+    width: 314px;
+    height: 48px;
+    
+    background-color: var(--color-primary);
+    color: var(--white);
+
+    font-size: var(--font-size-headline);
+    
+    border: none;
+    border-radius: 8px;
+}

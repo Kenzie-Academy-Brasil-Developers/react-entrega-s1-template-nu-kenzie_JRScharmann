@@ -1,0 +1,11 @@
+.rightSide{
+    height: 560px;
+    width: 622px;
+}
+
+.ulList{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+    margin-top: 29px;
+}

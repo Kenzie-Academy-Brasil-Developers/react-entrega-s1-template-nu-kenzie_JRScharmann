@@ -1,0 +1,17 @@
+.mainDash{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+    gap: 59px;
+    overflow-x: hidden;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}

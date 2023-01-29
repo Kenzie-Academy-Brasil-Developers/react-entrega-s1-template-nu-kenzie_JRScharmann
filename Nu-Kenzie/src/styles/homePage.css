@@ -1,0 +1,38 @@
+.homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: var(--grey-4);
+    color: var(--white);
+  }
+  
+  .contentHome{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 340px;
+    width: 347px;
+  }
+  
+  .contentHome h1{
+    font-size: var(--font-size-title1);
+  }
+  
+  .contentHome button{
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: var(--font-size-headline);
+
+    height: 48px;
+    width: 241px;
+
+    border-radius: 8px;
+    border: none;
+  }

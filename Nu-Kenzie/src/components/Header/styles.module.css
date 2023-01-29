@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 5.5rem;
+    width: 100vw;
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+    margin-bottom: 39px;
+    
+    box-shadow: 0 1px 0 0 var(--grey-2);
+}
+
+.button{
+    background-color: var(--grey-2);
+    color: black;
+
+    height: 40px;
+    width: 64px;
+
+
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: var(--grey-4);
+    color: var(--white);
+}

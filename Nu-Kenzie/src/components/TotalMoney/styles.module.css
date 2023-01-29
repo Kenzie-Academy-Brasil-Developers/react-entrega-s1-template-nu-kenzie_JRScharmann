@@ -1,0 +1,36 @@
+.valorTotal{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid var(--grey-2);
+    border-radius: 4px;
+
+    height: 96px;
+    width: 363px;
+
+    margin-top: 16px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.valorDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valorDiv h2{
+    font-size: var(--font-size-title3);
+}
+
+.valorDiv p{
+    font-size: var(--font-size-headline);
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.valorSpan{
+    font-size: var(--font-size-body);
+    margin-top: 6px;
+}
