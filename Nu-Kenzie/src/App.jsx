@@ -2,6 +2,8 @@ import './reset.css'
 import './styles/homePage.css'
 import './styles/dashboard.css'
 import './App.css'
+import logo from './assets/Nu Kenzie.svg'
+import illustration from './assets/Illustration.svg'
 import { Form } from './components/Form'
 import { useState } from 'react'
 import { List } from './components/List'
@@ -18,12 +20,12 @@ function App() {
   return page === 'homePage' ?
       <div className='homePage'>
         <div className="contentHome">
-        <img src="./src/assets/Nu Kenzie.svg" alt="" />
+        <img src={logo} alt="" />
         <h1>Centralize o controle das suas finanças</h1>
         <p>de forma rápida e segura</p>
         <button type='button' onClick={() => setPage('dashboard')}>Iniciar</button>
         </div>
-        <div><img src="src\assets\Illustration.svg" alt="" /></div>
+        <div><img src={illustration} alt="" /></div>
       </div>
     :<div className='dashboard'>
       <Header onClick={() => setPage('homePage')}/>

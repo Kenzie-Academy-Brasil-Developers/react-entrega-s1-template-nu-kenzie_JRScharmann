@@ -1,4 +1,5 @@
 import styles from './styles.module.css'
+import trash from "../../assets/trash.svg"
 
 export function Card( {transaction, index, setListTransactions, listTransactions} ) {
     function handleButton() {
@@ -16,7 +17,7 @@ export function Card( {transaction, index, setListTransactions, listTransactions
                 </div>
             <div className={styles.direitaLi}>
             <span className={styles.spanValue}>R${transaction.value}</span>
-            <button className={styles.buttonTrash} onClick={handleButton}><img src="./src/assets/trash.svg" alt="" /></button>
+            <button className={styles.buttonTrash} onClick={handleButton}><img src={trash} alt="" /></button>
             </div>
         </li>
         ): (
@@ -27,7 +28,7 @@ export function Card( {transaction, index, setListTransactions, listTransactions
                 </div>
             <div className={styles.direitaLi}>
             <span className={styles.spanValue}>R${transaction.value}</span>
-            <button className={styles.buttonTrash} onClick={handleButton}><img src="./src/assets/trash.svg" alt="" /></button>
+            <button className={styles.buttonTrash} onClick={handleButton}><img src={trash} alt="" /></button>
             </div>
         </li>
         )}
